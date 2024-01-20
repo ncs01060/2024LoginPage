@@ -1,0 +1,75 @@
+body {
+  background: linear-gradient(45deg, Violet, Orange);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.Login-body {
+  border: 2px solid #ccc;
+  background-color: #fff;
+  border-radius: 8px;
+  height: 300px;
+  overflow: hidden;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.Left {
+  box-shadow: 20px 5px 5px whitesmoke;
+  flex: 1;
+  padding: 20px;
+  border-right: 2px solid #ccc;
+}
+
+.Left p {
+  font-size: 10px;
+  margin-left: 16px;
+}
+
+.Right {
+  flex: 1;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+button {
+  background-image: linear-gradient(
+    to right,
+    #ff6e7f 0%,
+    #bfe9ff 51%,
+    #ff6e7f 100%
+  );
+  margin: 10px;
+  padding: 10px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
